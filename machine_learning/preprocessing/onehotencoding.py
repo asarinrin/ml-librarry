@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
+from ml_template.machine_learning.preprocessing.split_data import DataSplit
 
 # dependency
 # - pandas

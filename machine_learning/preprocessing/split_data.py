@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
-from machine_learning.preprocessing.typechecker import TypeChecker
-from machine_learning.preprocessing.null_operation import PreprocessForNull
+from ml_template.machine_learning.preprocessing.typechecker import TypeChecker
+from ml_template.machine_learning.preprocessing.null_operation import PreprocessForNull
 
 # dependency
 # - sklearn.model_selection.train_test_split

@@ -2,9 +2,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
-from machine_learning.preprocessing.onehotencoding import OneHotEncoding
-from machine_learning.preprocessing.typechecker import TypeChecker
-from machine_learning.preprocessing.split_data import DataSplit
+from ml_template.machine_learning.preprocessing.onehotencoding import OneHotEncoding
+from ml_template.machine_learning.preprocessing.typechecker import TypeChecker
+from ml_template.machine_learning.preprocessing.split_data import DataSplit
 
 # dependency
 # - pandas
